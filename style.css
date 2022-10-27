@@ -49,7 +49,7 @@
 #welcome-text {
   width: 30%;
   margin: auto;
-  line-height: 5vh;
+  line-height: 4vh;
 }
 
 .icon {
@@ -138,4 +138,11 @@ li {
 
 .card-content {
   padding: 10px;
+}
+.stars {
+  align-items: center;
+}
+
+.star-row {
+  align-items: center;
 }
