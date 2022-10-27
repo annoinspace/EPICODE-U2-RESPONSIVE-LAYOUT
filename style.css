@@ -17,6 +17,19 @@
 .column {
   flex-direction: column;
 }
+.bold {
+  font-weight: bold;
+}
+.btn {
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+}
+
+#browse {
+  color: white;
+  background-color: #1acb98;
+}
 
 #top-nav {
   height: 7vh;
@@ -97,8 +110,8 @@ li {
 
 .card-container {
   padding-top: 50px;
-  margin-inline: 250px;
-  height: 50vh;
+  margin-inline: 200px;
+  height: 55vh;
 }
 
 .four-cards {
@@ -108,9 +121,15 @@ li {
   justify-content: space-between;
 }
 .card {
-  width: 200px;
-  height: 300px;
-  background-color: pink;
+  width: 220px;
+  height: 320px;
+  background-color: white;
   border: none;
   border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-img {
+  object-fit: contain;
+  max-width: 100%;
 }
