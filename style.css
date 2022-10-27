@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.gray {
+  background-color: #f5f4f8;
+}
+.flex {
+  display: flex;
+}
+
+#top-nav {
+  height: 5vh;
+}
+
+#welcome {
+  background-color: #7550fe;
+  color: white;
+}
