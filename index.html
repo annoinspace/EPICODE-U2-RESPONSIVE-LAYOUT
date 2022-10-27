@@ -10,7 +10,21 @@
   </head>
   <body>
     <div class="container">
-      <nav id="top-nav" class="gray"></nav>
+      <nav id="top-nav" class="gray flex">
+        <div id="links" class="flex">
+          <img id="logo" class="icon" src="./assets/logo.svg" />
+          <ul class="flex">
+            <li>Browse</li>
+            <li>Landings</li>
+            <li>Pages</li>
+            <li>Accounts</li>
+          </ul>
+        </div>
+        <div id="user-login" class="flex">
+          <div>bell</div>
+          <img id="user-avatar" class="icon" src="/assets/avatar-1.jpg" />
+        </div>
+      </nav>
       <div id="welcome" class="flex">
         <div id="welcome-text">
           <h1>Welcome Web Students!</h1>
@@ -24,43 +38,79 @@
 
         <img src="./assets/hero-img.png" />
       </div>
-      <div id="hero-lower">
-        <div class="hero-lower-content">
-          <span>30,000 online courses</span>
-          <span>Enjoy a variety of fresh topics</span>
+      <div id="hero-lower" class="flex">
+        <div class="middle-banner-wrapper flex">
+          <img
+            id="camera"
+            class="lower-hero-icon"
+            src="/assets/camera-video.svg"
+          />
+          <div class="hero-lower-content flex column">
+            <span>30,000 online courses</span>
+            <br />
+            <span>Enjoy a variety of fresh topics</span>
+          </div>
         </div>
-        <div class="hero-lower-content">
-          <span>Expert Tuition</span>
-          <span>Find the right instructor for you</span>
+        <div class="middle-banner-wrapper flex">
+          <img
+            id="camera"
+            class="lower-hero-icon"
+            src="/assets/camera-video.svg"
+          />
+          <div class="hero-lower-content flex column">
+            <span>Expert Tuition</span>
+            <br />
+            <span>Find the right instructor for you</span>
+          </div>
         </div>
-        <div class="hero-lower-content">
-          <span>Lifetime access</span>
-          <span>Learn on your schedule</span>
+        <div class="middle-banner-wrapper flex">
+          <img
+            id="camera"
+            class="lower-hero-icon"
+            src="/assets/camera-video.svg"
+          />
+          <div class="hero-lower-content flex column">
+            <span>Lifetime access</span>
+            <br />
+            <span>Learn on your schedule</span>
+          </div>
         </div>
       </div>
-      <div id="course-section" class="gray">
-        <section>
-          <h3>Recommended to you</h3>
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
-        </section>
-        <section>
-          <h3>Most Popular</h3>
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
-        </section>
-        <section>
-          <h3>Trending</h3>
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
-        </section>
-      </div>
+      <section id="card-sections" class="gray">
+        <div class="gray">
+          <section class="card-container">
+            <h3 class="card-section-header">Recommended to you</h3>
+            <div class="four-cards flex">
+              <div class="card"></div>
+              <div class="card"></div>
+              <div class="card"></div>
+              <div class="card"></div>
+            </div>
+          </section>
+        </div>
+        <div class="gray">
+          <section class="card-container">
+            <h3 class="card-section-header">Recommended to you</h3>
+            <div class="four-cards flex">
+              <div class="card"></div>
+              <div class="card"></div>
+              <div class="card"></div>
+              <div class="card"></div>
+            </div>
+          </section>
+        </div>
+        <div class="gray">
+          <section class="card-container">
+            <h3 class="card-section-header">Recommended to you</h3>
+            <div class="four-cards flex">
+              <div class="card"></div>
+              <div class="card"></div>
+              <div class="card"></div>
+              <div class="card"></div>
+            </div>
+          </section>
+        </div>
+      </section>
       <footer class="gray"></footer>
     </div>
   </body>

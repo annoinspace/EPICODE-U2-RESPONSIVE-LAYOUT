@@ -9,13 +9,99 @@
 }
 .flex {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.column {
+  flex-direction: column;
 }
 
 #top-nav {
-  height: 5vh;
+  height: 7vh;
+  justify-content: space-between;
 }
 
 #welcome {
   background-color: #7550fe;
   color: white;
+}
+
+#welcome-text {
+  width: 30%;
+  margin: auto;
+  line-height: 5vh;
+}
+
+.icon {
+  height: 90%;
+  padding: 5px;
+}
+
+#logo {
+  margin: 10px 15px;
+  height: 70%;
+  margin: auto;
+}
+#user-avatar {
+  border-radius: 50%;
+  margin: auto;
+}
+
+ul {
+  justify-content: center;
+  align-content: center;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  list-style: none;
+  margin: 5px 20px 5px 5px;
+}
+
+#hero-lower {
+  vertical-align: middle;
+  gap: 5%;
+  height: 15vh;
+  margin-top: auto;
+}
+
+.hero-lower-content {
+  margin-top: auto;
+  margin-bottom: auto;
+  align-content: flex-start;
+  line-height: 10px;
+}
+.middle-banner-wrapper {
+  align-items: center;
+}
+.lower-hero-icon {
+  height: 50%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  color: #c38135;
+  background-color: #ffeeda;
+}
+
+.card-container {
+  padding-top: 50px;
+  margin-inline: 250px;
+  height: 50vh;
+}
+
+.four-cards {
+  gap: 5px;
+  height: 100%;
+
+  justify-content: space-between;
+}
+.card {
+  width: 200px;
+  height: 300px;
+  background-color: pink;
+  border: none;
+  border-radius: 10px;
 }
