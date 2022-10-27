@@ -23,6 +23,10 @@
   justify-content: space-between;
 }
 
+#user-login {
+  align-items: center;
+}
+
 #welcome {
   background-color: #7550fe;
   color: white;
@@ -47,6 +51,10 @@
 #user-avatar {
   border-radius: 50%;
   margin: auto;
+}
+
+#notification {
+  margin-inline-end: 5px;
 }
 
 ul {
@@ -78,7 +86,8 @@ li {
   align-items: center;
 }
 .lower-hero-icon {
-  height: 50%;
+  height: 50px;
+  width: 50px;
   margin: 10px;
   padding: 10px;
   border-radius: 50%;
